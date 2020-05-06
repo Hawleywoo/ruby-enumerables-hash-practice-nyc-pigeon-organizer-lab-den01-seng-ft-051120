@@ -3,8 +3,8 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   data.each do |color_gender_lives, value|
-    puts color_gender_lives
-    puts value
+    #puts color_gender_lives
+    #puts value
     value.each do |stats, all_names|
       #puts stats
       #puts all_names
