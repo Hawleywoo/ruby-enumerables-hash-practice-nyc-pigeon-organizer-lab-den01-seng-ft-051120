@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     #puts value
     value.each do |stats, all_names|
       #puts stats
-      #puts all_names
+      puts all_names
       all_names.each do |name|
         puts name
 
@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-   puts pigeon_list
+    pigeon_list
 end
 
 pigeon_data = {
