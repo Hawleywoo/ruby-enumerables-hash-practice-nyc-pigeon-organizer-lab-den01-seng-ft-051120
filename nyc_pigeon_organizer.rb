@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
     puts color_gender_lives
     puts value
     value.each do |stats, all_names|
-      puts stats
-      puts all_names
+      #puts stats
+      #puts all_names
       all_names.each do |name|
 
         if pigeon_list[name] == nil
