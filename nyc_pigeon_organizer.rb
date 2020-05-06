@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
       #puts stats
       #puts all_names
       all_names.each do |name|
+        puts name
 
         if pigeon_list[name] == nil
            pigeon_list[name] = {}
